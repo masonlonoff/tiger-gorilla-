@@ -1,0 +1,86 @@
+notes.txt
+
+why git?
+
+    -version control system
+
+    -collaborator with other programmers:
+
+        -using other people's code,open source software
+
+        -in your teams, hobby projects, to work projects
+
+            -"live coding" code merging tool
+
+            -being the rookie on the team, and getting my bearings, and ultimately
+            contributing to the codebase
+
+   key utility
+    - getting other peoples code
+    - contributing your own code
+
+commands:
+
+    git status-
+
+        -takes no actions; never hurts to run it!
+        -can run this anywhere inside the gir repo (not just at root)
+    
+
+    git init- 
+
+        -only runs once at beginning 
+        -creates a new git repo locally
+
+
+    git add [options]- 
+
+        -git add <filename>
+
+        -adds file(s) to staging'
+
+    git commit -m "<commit msg>"
+
+terms:
+
+    repository-
+
+        -local
+        -remote
+
+    
+    root- 
+
+        -base of the repository
+
+
+    staging
+        
+        move a file(s) into 'green' from 'red'
+    
+    
+        track- whether or not to keep track of modifications to a file
+
+            -only once do you have to track it
+
+
+    git credential manager (GCM)
+        -it's going to cache our username/password
+
+
+    git - version control, command line interface programmers
+
+
+    github - a way to admin remote repos for sharing
+
+
+git review 12/14
+
+-git review
+    0. git checkout -b submit-1
+    git status nb was red 
+    1. git add 
+    git status nb was in green 
+    2. git commit -m "message"
+    git status  nb is neither red nor green
+    3. pit push 
