@@ -77,9 +77,10 @@ terms:
 git review 12/14
 
 -git review
-
-    git status 
-    1. git add
-    git status 
+    0. git checkout -b submit-1
+    git status nb was red 
+    1. git add 
+    git status nb was in green 
     2. git commit -m "message"
-    git status 
+    git status  nb is neither red nor green
+    3. pit push 
